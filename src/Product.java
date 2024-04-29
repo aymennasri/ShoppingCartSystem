@@ -12,16 +12,8 @@ public abstract class Product {
         return Name;
     }
 
-    public void setName(String name) {
-        Name = name;
-    }
-
     public Double getBase_price() {
         return Base_price;
-    }
-
-    public void setBase_price(Double base_price) {
-        Base_price = base_price;
     }
 
     public int getInv_count() {
@@ -33,9 +25,7 @@ public abstract class Product {
     }
 
     abstract void DisplayDetails();
-    public boolean IsAvailable(String Name){
-        return getName().equals(Name);
-    }
+
     public void Update_Inv(int Quantity){
         setInv_count(getInv_count() - Quantity);
     }

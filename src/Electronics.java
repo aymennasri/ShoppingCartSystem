@@ -9,10 +9,6 @@ public class Electronics extends Product{
         return Category;
     }
 
-    public void setCategory(String category) {
-        Category = category;
-    }
-
     public Double Calculate_price(int Quantity) {
         if(Quantity <= 5 && Quantity >= 3){
             return Quantity * getBase_price() * 0.95;

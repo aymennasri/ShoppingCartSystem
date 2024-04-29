@@ -13,16 +13,8 @@ public class Clothes extends Product{
         return Size;
     }
 
-    public void setSize(String size) {
-        Size = size;
-    }
-
     public String getColor() {
         return Color;
-    }
-
-    public void setColor(String color) {
-        Color = color;
     }
 
     Double Calculate_price(int Quantity) {

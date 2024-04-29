@@ -12,16 +12,8 @@ public class Book extends Product {
         return Page_number;
     }
 
-    public void setPage_number(int page_number) {
-        Page_number = page_number;
-    }
-
     public String getAuthor() {
         return Author;
-    }
-
-    public void setAuthor(String author) {
-        Author = author;
     }
 
     public Double Calculate_price(int Quantity) {
